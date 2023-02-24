@@ -1,0 +1,165 @@
+
+body{font-family: HELVETICA,,"Noto Sans Traditional Chinese",sans-serif !important;}
+
+html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+img{display: block;}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.a1{
+  
+   
+   
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.b1{
+    width: 47%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+
+.c0{
+    font-weight: 600;
+    font-size: 1.5REM;
+    color: rgb(112, 112, 112);
+    width: 90%;
+    padding-left: 5%;
+    height:5% ;
+}
+
+.c0-a{
+    height: 5%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.c0-b{
+    width: 100%;
+    
+    height: 0.15rem;
+    
+    background-color: #c6c6c6;
+    margin: 0 auto;
+}
+.c1{
+   width: 90%;
+   height: 80%;
+   background-color: #ffffff;
+   margin: 0 auto;
+   
+}
+
+.c-photo{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(199, 182, 156);
+}
+.c-photo img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+.c-arti{
+    height: 28%;
+    margin-top: 2%;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #818181;
+}
+
+
+@media(max-width:858px){
+
+    .a1{
+  
+   
+        
+        width: 100%;
+        height: 100%;
+        background-color: rgb(212, 212, 212);
+        display: grid;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .b1{
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    
+    .c0{
+        height: 10%;
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        padding-left: 0%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .c0-a{
+        height: 5%;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+    }
+    .c0-b{
+        width: 100%;
+        
+        height: 0.15rem;
+        
+        background-color: #c6c6c6;
+        margin: 0 auto;
+    }
+    .c1{
+       width: 90%;
+       height: 75%;
+       background-color: #ffffff;
+       margin: 0 auto;
+       
+    }
+
+    .c-photo{
+        height: 60%;
+        width: 100%;
+        background-color: rgb(199, 182, 156);
+    }
+    .c-photo img{
+       object-fit: cover;
+       width: 100%;
+       height: 100%;
+    }
+    .c-arti{
+        height: 38%;
+        margin-top: 2%;
+        width:100%;
+        background-color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #818181;
+    }
+}
