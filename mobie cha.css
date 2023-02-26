@@ -1,5 +1,5 @@
 
-body{font-family: HELVETICA,,"Noto Sans Traditional Chinese",sans-serif !important;}
+body{font-family: HELVETICA,"Noto Sans Traditional Chinese",sans-serif !important;}
 
 html,
   body{
@@ -7,7 +7,10 @@ html,
     overflow-x:hidden;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to right, #00A99D, #AAB9FF);;
   }
+
+  
   
 
 img{display: block;}
@@ -19,147 +22,113 @@ img{display: block;}
     box-sizing: border-box;
 }
 
-
-.a1{
-  
-   
-   
+.sp0{
     width: 100%;
     height: 30%;
-    background-color: rgb(255, 255, 255);
+    
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+.sp1 :nth-child(2){
+    height: 20vh;
+    background-color: #00A99D;
 }
 
-.b1{
-    width: 47%;
+.sp1{
     height: 100vh;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto;
+    
+    width: 50%;
 }
-
-
-.c0{
-    font-weight: 600;
-    font-size: 1.5REM;
-    color: rgb(112, 112, 112);
-    width: 90%;
-    padding-left: 5%;
-    height:5% ;
-}
-
-.c0-a{
-    height: 5%;
-    width: 90%;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-}
-.c0-b{
+.sp1 img{
+    object-fit: cover;
     width: 100%;
-    
-    height: 0.15rem;
-    
-    background-color: #c6c6c6;
-    margin: 0 auto;
+    height: 100%;
 }
-.c1{
-   width: 90%;
-   height: 80%;
-   background-color: #ffffff;
-   margin: 0 auto;
+
+.sp1 h1{
+        
+    color: #ffffff;
+    font-size: 4rem;
+    padding-top: 45vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    
+    
+
+}
+
+
+.talk{
+    background-color: #ffffff;
+    width: 80%;
+    height: 80vh;
+    border-radius: 1rem;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
    
+    
+    
+    
+    
+}
+.talk img{
+    border-radius: 2rem;
+    padding: 1rem;
+    
 }
 
-.c-photo{
-    height: 80%;
-    width: 100%;
-    background-color: rgb(199, 182, 156);
-}
-.c-photo img{
-   object-fit: cover;
-   width: 100%;
-   height: 100%;
-}
-.c-arti{
-    height: 28%;
-    margin-top: 2%;
-    width:100%;
-    background-color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #818181;
-}
 
 
 @media(max-width:858px){
 
-    .a1{
-  
-   
-        
+    .sp0{
         width: 100%;
         height: 100%;
-        background-color: rgb(212, 212, 212);
+        
         display: grid;
-        padding-left: 5%;
-        padding-right: 5%;
     }
-
-    .b1{
-        width: 100%;
-        height: 50vh;
-        background-color: rgb(255, 255, 255);
+    .sp1{
+        
+            width: 100%;
+            height:70vh;
+            text-align: center;
+            
+    }
+    .sp0 :nth-child(2){
+        height: 30vh;
+        
     }
 
     
-    .c0{
-        height: 10%;
-        background-color: rgb(255, 255, 255);
-        width: 90%;
-        padding-left: 0%;
+    
+    
+    
+    .sp1 h1{
+        
+        color: #ffffff;
+        font-size: 2rem;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+
+    }
+    .talk{
+        
+        width: 80%;
+        height: 50vh;
+        border-radius: 1rem;
+        box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
         margin: 0 auto;
         margin-top: 10%;
-    }
-    .c0-a{
-        height: 5%;
-        width: 90%;
-        background-color: rgb(255, 255, 255);
-        margin: 0 auto;
-    }
-    .c0-b{
-        width: 100%;
-        
-        height: 0.15rem;
-        
-        background-color: #c6c6c6;
-        margin: 0 auto;
-    }
-    .c1{
-       width: 90%;
-       height: 75%;
-       background-color: #ffffff;
-       margin: 0 auto;
+        margin-bottom: 10%;
        
+        
+        
+        
+        
     }
 
-    .c-photo{
-        height: 60%;
-        width: 100%;
-        background-color: rgb(199, 182, 156);
-    }
-    .c-photo img{
-       object-fit: cover;
-       width: 100%;
-       height: 100%;
-    }
-    .c-arti{
-        height: 38%;
-        margin-top: 2%;
-        width:100%;
-        background-color: rgb(255, 255, 255);
-        font-weight: 600;
-        font-size: 0.9rem;
-        color: #818181;
-    }
+    
 }
