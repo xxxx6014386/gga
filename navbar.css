@@ -261,7 +261,7 @@ header{
     transition:1.8s;
     display: flex;
     background-color: #f7f6f6;
-    background-image: url(iimg/op1.svg),url(iimg/op2.svg);
+    background-image: url(iimg/op1.svg),url(iimg/op2.png);
     background-size: 200%,30%;
     background-repeat: no-repeat,repeat;
     background-position: top  ,top;
@@ -694,7 +694,7 @@ h1.card-header{
   .inani{
     transition:1.8s;
     display: flex;
-    background-image: url(iimg/op1.svg),url(iimg/op2.svg);
+    background-image: url(iimg/op1.svg),url(iimg/op2.png);
     background-size: 350%,70%;
     background-repeat: repeat;
     background-position:right -22rem top ,top;
